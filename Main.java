@@ -1,7 +1,9 @@
+import java.util.GregorianCalendar;
+
 public class Main {
 	
 	public static void main(String[] args) {
-		
-		System.out.println("Hello Progtech");
+		GreetingsGenerator generator = new GreetingsGenerator();
+		System.out.println(generator.generateGreetings("Uram"));
 	}
 }
